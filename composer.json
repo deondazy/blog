@@ -1,0 +1,19 @@
+{
+    "name": "deondazy/blog",
+    "description": "A simple PHP Blogging Application",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Deondazy\\Blog\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "deondazy",
+            "email": "deondazy@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
